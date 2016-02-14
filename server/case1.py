@@ -20,8 +20,11 @@ while True:
     # Let's keep it slow
     time.sleep(.05)
 
-    x = random.randint(0, COLS - 1)
-    y = random.randint(0, ROWS - 1)
+    table_x_idx = random.randint(0, 3)
+    table_y_idx = random.randint(0, 1)
+
+    x = 200 * (table_x_idx) + 150 + random.randint(-125, 125)
+    y = 200 * (table_y_idx) + 150 + random.randint(-75, 75)
     value = int(100 * random.betavariate(ALPHA, BETA))
 
     # Correct value to avoid random positives
