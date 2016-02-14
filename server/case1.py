@@ -13,7 +13,7 @@ ROWS = 500
 
 # Beta distribution parameters
 ALPHA = 2
-BETA = 10
+BETA = 5
 
 while True:
     
