@@ -28,23 +28,26 @@ CACHE_EXPIRES = 0
 PAGINATION = True
 
 noise = {
-	'item_title': 'noise',
+    'item_title': 'noise',
 
-    'additional_lookup': {
-        'url': 'regex("[\d]+")',
-        'field': 'point_id'
-    },
-
-	'schema': {
+    'schema': {
         'x': {'type': 'integer'},
         'y': {'type': 'integer'},
         'value': {'type': 'integer'},
-        'point_id': {'type': 'integer'}
-	}
+    }
+}
+
+notification = {
+    'item_title': 'notification',
+
+    'schema': {
+        'username': {'type': 'string'},
+    }
 }
 
 # The DOMAIN dict explains which resources will be available and how they will
 # be accessible to the API consumer.
 DOMAIN = {
     'noise': noise,
+    'notification': notification,
 }
