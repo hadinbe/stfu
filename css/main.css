@@ -1,0 +1,52 @@
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+   body {
+   	padding-top: 50px;
+   	padding-bottom: 20px;
+   }
+
+.gray-bg {
+	background: #424a5d;
+	/*border-bottom: 1px solid #c9aa5f;*/
+}
+
+.container-first {
+	padding-top: 60px;
+}
+
+#notifications-col {
+	position: fixed;
+	right: 0px;
+	height: 100%;
+	overflow-y: scroll;
+}
+
+.showback-heatmap {
+	padding: 0px !important;
+}
+
+#heatmap {
+	height: 500px;
+}
+
+.mt60 {
+	margin-top: 60px;
+}
+
+.mt30 {
+	margin-top: 35px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
